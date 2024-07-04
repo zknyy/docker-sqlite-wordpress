@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-
+name: sqlite-wordpress
   wordpress:
-    image: soulteary/sqlite-wordpress:6.5.3
+    image: zknyy/sqlite-wordpress:6.5.5
     restart: always
     ports:
       - 8080:80
