@@ -26,7 +26,7 @@ docker pull zknyy/sqlite-wordpress:6.5.5
 Use the following command to quickly launch the wordpress with port `8080`:
 
 ```bash
-docker run --rm -it -p 8080:80 -v `pwd`/wordpress:/var/www/html zknyy/sqlite-wordpress
+docker run --rm -it -p 8080:9000 -v `pwd`/wordpress:/var/www/html zknyy/sqlite-wordpress
 ```
 
 You can also use docker compose to start wordpress:
@@ -40,7 +40,7 @@ services:
     image: zknyy/sqlite-wordpress:6.5.5
     restart: always
     ports:
-      - 8080:80
+      - 8080:9000
     volumes:
       - ./wordpress:/var/www/html
 ```
