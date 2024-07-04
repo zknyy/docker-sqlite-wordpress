@@ -1,4 +1,5 @@
-FROM wordpress:6.5.3-php8.3-apache
+# change version from 6.5.3-php8.3-apache to 6.5.5-php8.3-fpm
+FROM wordpress:6.5.5-php8.3-fpm
 LABEL org.opencontainers.image.authors="soulteary@gmail.com"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
