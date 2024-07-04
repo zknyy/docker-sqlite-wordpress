@@ -1,4 +1,4 @@
-![image](https://github.com/zknyy/docker-sqlite-wordpress/assets/1180659/ce502d04-e4e3-462e-8de9-2fd8ae09ae24)![image](https://github.com/zknyy/docker-sqlite-wordpress/assets/1180659/4714a950-ad9b-4e7d-880e-ba30d611c4b9)# Docker SQLite WordPress
+# Docker SQLite WordPress
 
 ![](.github/about.jpg)
 
